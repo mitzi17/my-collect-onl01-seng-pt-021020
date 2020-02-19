@@ -5,10 +5,8 @@ def my_collect(collection)
   new_collection << yield(collection[i])
   i += 1
 end
-end
 
-my collection(collection) do |lang|
-  lang.upcase
+new_collection
 end
 
 
